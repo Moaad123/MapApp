@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MapApp",
+    "slug": "MapApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8cccca"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "*/"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#023d69"
+      }, 
+      "package": "com.cnq.MapApp",
+      "versionCode": 4,
+      "config": {
+        "googleMaps": {
+          "apiKey":  "AIzaSyDYRJ9Cq9EYjiE8qu3EbV-ChyAOAIndb8A"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
